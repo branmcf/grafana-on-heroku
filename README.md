@@ -4,7 +4,7 @@ Build Grafana docker image on Heroku.
 
 ## Quick setup
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xiz-kak/grafana-on-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/branmcf/grafana-on-heroku)
 
 ## Manual setup
 
@@ -42,7 +42,7 @@ $ heroku container:push web -a [app name]
 Add Postgres add-on to the heroku app
 
 ```
-$ heroku addons:create heroku-postgresql:hobby-dev -a [app name]
+$ heroku addons:create heroku-postgresql:mini -a [app name]
 ```
 
 Release the container
